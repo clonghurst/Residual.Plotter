@@ -1,0 +1,12 @@
+---
+title: "Using the Residual.Plotter Package"
+author: "Colin Longhurst"
+date: "`r Sys.Date()`"
+output: pdf_document
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\usepackage[utf8]{inputenc}
+---
+
+The Residual.Plotter package contains one imperfect function, rezzer() whose primary purpose is to provide an investigator a quick, easy way to compare the three common residuals plots (normal, logged, square-rooted) of his or her linear model.  Although residual diagnostics are not the end-all of model diagnostics, a quick look at the residuals of a model, along with the transformed residuals of that model, provides an easy way to spot common model problems (i.e. heteroskedasticity).  Currently, version 1.1 of this package only supports numerical data for the response variable, that is, this package does not support GLMs.    
